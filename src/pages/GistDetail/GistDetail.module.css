@@ -1,0 +1,76 @@
+.gistdetailWrapper {
+  height: 90vh;
+  background: #0f0c29;
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+.detailCard {
+  border: 1px solid white;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.UserWrapper {
+  border-bottom: 1px solid white;
+  width: 100%;
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 40px;
+  align-items: center;
+}
+
+.UserWrapper button {
+  background-color: white;
+  padding: 15px;
+  width: 120px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.gistDesc {
+  width: 100%;
+  padding: 0px 40px;
+}
+.gistDesc p {
+  color: white;
+  font-size: large;
+}
+
+.gistFiles,
+.gistForks {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 20px 0;
+  color: white;
+  padding: 0px 40px;
+  font-size: large;
+  flex-wrap: wrap;
+}
+.gistFiles a {
+  color: white;
+}
+
+.forkWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.loaderWrapper {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,61 @@
+.gistslistWrapper {
+  min-height: 90vh;
+  background: #0f0c29;
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+.searchBar {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.gistslistWrapper small {
+  color: white;
+  margin: 10px 0;
+}
+
+/* //gist */
+.loaderWrapper {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.gistWrapper {
+  border: 1px solid white;
+  border-radius: 8px;
+  width: 90%;
+  margin: 20px auto 0;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.gistName {
+  color: white;
+}
+.gistName:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.gistWrapper button {
+  background-color: white;
+  padding: 15px;
+  width: 120px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+.noFound {
+  width: 90%;
+  color: white;
+  margin: 0 auto;
+}
